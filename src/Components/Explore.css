@@ -1,0 +1,13 @@
+.blur-overlay-explore {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 81%; /* Điều chỉnh chiều cao phần mờ */
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(28, 27, 27, 0.8) 100%
+  );
+  pointer-events: none; /* Đảm bảo không ảnh hưởng đến các tương tác */
+}
