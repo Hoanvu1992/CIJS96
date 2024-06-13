@@ -5,9 +5,8 @@ import { movieList } from "./Data/Data.js";
 import Navbar from "./Components/Navbar.jsx";
 
 const App = () => {
-  const [selectedMovie, setSelectedMovie] = useState(null);
-
   const movies = movieList.data;
+  const [selectedMovie, setSelectedMovie] = useState(movieList.data[0]);
 
   const handleMovieClick = (movie) => {
     setSelectedMovie(movie);

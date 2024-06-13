@@ -1,6 +1,5 @@
 import "./NewRelease.css";
 const NewRelease = ({ movies, onMovieClick }) => {
-  console.log("🚀 ~ NewRelease ~ movies:", movies);
   return (
     <div className="text-white">
       <h1 className="text-3xl font-bold mx-36 my-10">New Release</h1>
@@ -21,7 +20,6 @@ const NewRelease = ({ movies, onMovieClick }) => {
                 {item.episode}
               </p>
             </div>
-
             <h1 className="text-center">{item.movieName}</h1>
           </div>
         ))}
